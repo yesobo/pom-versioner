@@ -1,0 +1,19 @@
+{
+  "name": "pomversion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:semver": "semver 0.0.1-SNAPSHOT -i minor"
+  },
+  "author": "yesobo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "semver": "^5.4.1",
+    "xml2js": "^0.4.17"
+  }
+}
